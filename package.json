@@ -1,0 +1,43 @@
+{
+  "name": "js-node-toggle",
+  "version": "1.0.0",
+  "description": "NodeJS toggle provider interface and unleash client",
+  "homepage": "https://github.com/pkg-wizard/js-node-toggle",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkg-wizard/js-node-toggle.git"
+  },
+  "scripts": {
+    "test": "jest -c ./jest.config.js",
+    "build": "tsc",
+    "clean": "rm -r ./dist"
+  },
+  "bugs": {
+    "url": "https://github.com/pkg-wizard/js-node-toggle/issues"
+  },
+  "dependencies": {
+    "js-node-logger": "^1.0.0",
+    "unleash-client": "^3.16.0"
+  },
+  "devDependencies": {
+    "nock": "^13.2.9",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.2",
+    "prettier": "^3.5.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "keywords": [
+    "Toggle",
+    "unleash"
+  ],
+  "author": "pkg-wizard",
+  "license": "MIT"
+}
