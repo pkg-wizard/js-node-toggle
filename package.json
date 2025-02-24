@@ -21,15 +21,15 @@
     "url": "https://github.com/pkg-wizard/js-node-toggle/issues"
   },
   "dependencies": {
-    "js-node-logger": "^1.0.0",
-    "unleash-client": "^3.16.0"
+    "js-node-logger": "^1.0.2",
+    "unleash-client": "^6.4.5"
   },
   "devDependencies": {
-    "nock": "^13.2.9",
-    "@types/express": "^4.17.13",
+    "nock": "^14.0.1",
+    "@types/express": "^5.0.0",
     "@types/jest": "^29.5.14",
-    "@types/node": "^22.13.2",
-    "prettier": "^3.5.0",
+    "@types/node": "^22.13.4",
+    "prettier": "^3.5.1",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
